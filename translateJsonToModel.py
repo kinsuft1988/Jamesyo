@@ -51,7 +51,9 @@ def handleJsonHFileContent(dic,name,dicNameModify):
     	if type(dic[singglePorperty]) is types.StringType:
        	    str += "@property (nonatomic, strong) NSString* %s;" % singglePorperty   + "\n"  
        	elif type(dic[singglePorperty]) is types.IntType:
-       	    str += "@property (nonatomic) NSInteger %s;" % singglePorperty   + "\n"    
+       	    str += "@property (nonatomic) NSInteger %s;" % singglePorperty   + "\n"
+        elif type(dic[singglePorperty]) is types.FloatType:
+            str += "@property (nonatomic) CGFloat %s;" % singglePorperty   + "\n"     
        	elif type(dic[singglePorperty]) is types.UnicodeType:
        	    str += "@property (nonatomic, strong) NSString* %s;" % singglePorperty   + "\n" 
        	elif type(dic[singglePorperty]) is types.DictType:
