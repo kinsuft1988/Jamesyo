@@ -1,0 +1,140 @@
+{
+    "name": "loanView",
+    "classType": "UIView",
+    "isScroll": "YES",
+    "isNavGradient": "YES",
+    "children": [{
+            "name": "loanActionView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "lblLoanMoneyNumberIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "textFiledLoanMoneyNumber",
+                    "classType": "UITextField"
+                },
+                {
+                    "name": "lblLoanMoneyUnitIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "divideUpView",
+                    "classType": "UIView"
+
+                },
+                {
+                    "name": "lblLoanMoneyNumberMaxHintIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "lblLoanPeriodsNumberIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "btnThreePeriods",
+                    "classType": "UIButton"
+
+                },
+                {
+                    "name": "btnSixPeriods",
+                    "classType": "UIButton"
+
+                },
+                {
+                    "name": "btnNinePeriods",
+                    "classType": "UIButton"
+
+                },
+                {
+                    "name": "btnTwelvePeriods",
+                    "classType": "UIButton"
+                },
+                {
+                    "name": "btnTwentyfourPeriods",
+                    "classType": "UIButton"
+
+                }
+
+            ]
+
+        },
+        {
+            "name": "loanInfoView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "lblMonthlyRepayNumberIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "lblMonthlyRepayNumber",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblMonthlyRepayPlanIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "imageMonthlyRepayPlanIndicator",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "btnRepayPlan",
+                    "classType": "UIButton"
+                },
+                {
+                    "name": "lblReceiverAccountIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblAcountBankName",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblAcountBankCardNumber",
+                    "classType": "UILabel"
+                }
+
+            ]
+
+        },
+        {
+            "name": "loanAcceptProtocolView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "imageAcceptProtocol",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "lblAcceptProtocol",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "divideUnderView",
+                    "classType": "UIView"
+                },
+                {
+                    "name": "btnProtocol",
+                    "classType": "UIButton"
+                }
+
+            ]
+        },
+        {
+            "name": "btnLoan",
+            "classType": "UIButton"
+        }
+    ]
+
+}

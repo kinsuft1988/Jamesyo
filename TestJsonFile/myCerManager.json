@@ -1,0 +1,76 @@
+{
+    "name": "myCerManagerView",
+    "classType": "UIView",
+    "children": [
+
+        {
+            "name": "cerInfoContentView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "lblHint",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "cerSelectedInfoView",
+                    "classType": "UIView",
+                    "children": [
+
+                        {
+                            "name": "imgCerIdentify",
+                            "classType": "imgCerIdentify"
+                        },
+                        {
+                            "name": "lblCerIdentifyIndicator",
+                            "classType": "UILabel"
+                        },
+                        {
+                            "name": "imgCerIdentifySelectedIndicator",
+                            "classType": "UIImageView"
+                        },
+                        {
+                            "name": "lblCerIdentifyStatus",
+                            "classType": "UILabel"
+                        },
+                        {
+                            "name": "imgCardIdentify",
+                            "classType": "imgCerIdentify"
+                        },
+                        {
+                            "name": "lblCardIdentifyIndicator",
+                            "classType": "UILabel"
+                        },
+                        {
+                            "name": "imgCardIdentifySelectedIndicator",
+                            "classType": "UIImageView"
+                        },
+                        {
+                            "name": "lblCardIdentifyStatus",
+                            "classType": "UILabel"
+                        },
+                        {
+                            "name": "didideMiddleView",
+                            "classType": "UIView"
+                        },
+                        {
+                            "name": "btnCerSelected",
+                            "classType": "UIButton"
+
+                        },
+                        {
+                            "name": "btnCardSelected",
+                            "classType": "UIButton"
+
+                        }
+
+
+                    ]
+                }
+            ]
+
+        }
+
+    ]
+
+}

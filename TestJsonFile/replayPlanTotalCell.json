@@ -1,0 +1,31 @@
+{
+    "name": "repayPlanCell",
+    "classType": "UITableViewCell",
+    "children": [{
+        "name": "repayPlanContentView",
+        "classType": "UIView",
+        "children": [
+
+            {
+                "name": "lblRepayTotalNumberIndicator",
+                "classType": "UILabel"
+
+            },
+            {
+                "name": "lblRepayTotalNumber",
+                "classType": "UILabel"
+            },
+            {
+                "name": "lblRepayHint",
+                "classType": "UILabel"
+            },
+            {
+                "name": "lblRepayPeriods",
+                "classType": "UILabel"
+            }
+
+        ]
+
+    }]
+
+}

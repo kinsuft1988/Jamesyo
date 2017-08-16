@@ -1,0 +1,14 @@
+{
+    "name": "loanPlanView",
+    "classType": "UIView",
+    "children": [
+
+        {
+            "name": "tableView",
+            "classType": "UITabelView"
+
+        }
+
+    ]
+
+}

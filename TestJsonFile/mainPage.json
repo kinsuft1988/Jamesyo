@@ -1,0 +1,100 @@
+{
+    "name": "mainPageView",
+    "classType": "UIView",
+    "children": [{
+            "name": "loanContentView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "lblCurrentCanLoanIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "lblCurrentCanLoan",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblLoanHintIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "loanItemsView",
+                    "classType": "UIView",
+                    "children": [
+
+                        {
+
+                            "name": "lblLoanSuccsessIndicator",
+                            "classType": "UILabel"
+
+                        },
+                        {
+
+                            "name": "lblLoanSuccsess",
+                            "classType": "UILabel"
+
+                        },
+                        {
+
+                            "name": "lblLoanApplyingIndicator",
+                            "classType": "UILabel"
+
+                        },
+                        {
+
+                            "name": "lblLoanApplying",
+                            "classType": "UILabel"
+
+                        },
+                        {
+
+                            "name": "lblLoanCurrentShouldRepayIndicator",
+                            "classType": "UILabel"
+                        },
+                        {
+
+                            "name": "lblLoanCurrentShouldRepay",
+                            "classType": "UILabel"
+
+                        },
+                        {
+
+                            "name": "divideUpLine",
+                            "classType": "UIView"
+
+                        },
+                        {
+
+                            "name": "divideDownLine",
+                            "classType": "UIView"
+
+                        }
+                    ]
+                }
+
+            ]
+
+        },
+        {
+            "name": "actionContentView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "btnLoan",
+                    "classType": "UIButton"
+
+                },
+                {
+                    "name": "lblCommomQuestions",
+                    "classType": "UILabel"
+                }
+
+            ]
+
+        }
+    ]
+
+}

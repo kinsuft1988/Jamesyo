@@ -1,0 +1,56 @@
+{
+    "name": "orderProgressTransferMoneyFailedCel",
+    "classType": "UITableViewCell",
+    "children": [
+
+        {
+            "name": "progressTransferMoneyFailedHintView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "progressTopView",
+                    "classType": "UIView"
+                },
+                {
+                    "name": "progressDownView",
+                    "classType": "UIView"
+                }
+            ]
+
+        },
+        {
+            "name": "tansferMoneyFailedContentView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "imgBackground",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "lblStatusIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblDate",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblStatusContent",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "btnCustomAction",
+                    "classType": "UIButton"
+                },
+                {
+                    "name": "divideMiddleView",
+                    "classType": "UIView"
+                }
+            ]
+        }
+
+    ]
+
+}

@@ -1,0 +1,27 @@
+{
+    "name": "identifySuccessView",
+    "classType": "UIView",
+    "children": [{
+            "name": "imageSucess",
+            "classType": "UIImageView"
+        },
+        {
+            "name": "lblProgressHintView",
+            "classType": "UILabel"
+        },
+        {
+            "name": "lblResultHintView",
+            "classType": "UILabel"
+        },
+        {
+            "name": "lblChangeHintView",
+            "classType": "UILabel"
+        },
+        {
+            "name": "btnConfirm",
+            "classType": "UIButton"
+        }
+
+    ]
+
+}

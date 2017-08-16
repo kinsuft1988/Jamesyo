@@ -1,0 +1,139 @@
+{
+    "name": "identifyCerView",
+    "classType": "UIView",
+    "isScroll": "YES",
+    "children": [{
+            "name": "identifyBasicInfoView",
+            "classType": "UIView",
+            "children": [{
+                    "name": "identifyBasicInfoHeadView",
+                    "classType": "UIView",
+                    "children": [{
+                        "name": "lblBasicInfoTitel",
+                        "classType": "UIView"
+                    }]
+                },
+                {
+                    "name": "identifyBasicInfoContentView",
+                    "classType": "UIView",
+                    "children": [{
+                            "name": "lblIdentifyNumberIndicator",
+                            "classType": "UILabel"
+                        },
+                        {
+                            "name": "textFiledIdentifyNumber",
+                            "classType": "UITextField"
+                        },
+                        {
+                            "name": "btnIdenfityNumberCancel",
+                            "classType": "UIButton"
+                        },
+                        {
+                            "name": "lblIdentifyNameIndicator",
+                            "classType": "UILabel"
+                        },
+                        {
+                            "name": "btnSexManSelect",
+                            "classType": "UIButton"
+                        },
+                        {
+                            "name": "lblSexManIndicator",
+                            "classType": "UILabel"
+                        },
+                        {
+                            "name": "btnSexWomanSelect",
+                            "classType": "UIButton"
+                        },
+                        {
+                            "name": "lblSexWomanIndicator",
+                            "classType": "UILabel"
+                        },
+                        {
+                            "name": "lblIdentifyBirthIndicator",
+                            "classType": "UILabel"
+                        },
+                        {
+                            "name": "textFiledIdentifyBirth",
+                            "classType": "UITextField"
+                        },
+                        {
+                            "name": "imageBirthSelect",
+                            "classType": "UIImageView"
+                        },
+                        {
+                            "name": "btnBirthSelect",
+                            "classType": "UIButton"
+                        },
+                        {
+                            "name": "lblIdentifyAdressIndicator",
+                            "classType": "UILabel"
+                        },
+                        {
+                            "name": "textFiledIdentifyAdress",
+                            "classType": "UITextField"
+                        },
+                        {
+                            "name": "dividUpView",
+                            "classType": "UIView"
+                        },
+                        {
+                            "name": "dividMiddleView",
+                            "classType": "UIView"
+                        },
+                        {
+                            "name": "dividDownView",
+                            "classType": "UIView"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "identifyPhotoInfoView",
+            "classType": "UIView",
+            "children": [{
+                    "name": "identifyPhotoInfoHeadView",
+                    "classType": "UIView",
+                    "children": [{
+                        "name": "lblPhotoInfoTitel",
+                        "classType": "UIView"
+                    }]
+                },
+                {
+                    "name": "identifyPhotoInfoContentView",
+                    "classType": "UIView",
+                    "children": [{
+                            "name": "imageIdentifyCardUp",
+                            "classType": "UIImageView"
+                        },
+                        {
+                            "name": "imageIdentifyCardDown",
+                            "classType": "UIImageView"
+                        },
+                        {
+                            "name": "imageIdentifyCardHand",
+                            "classType": "UIImageView"
+                        }
+                    ]
+                },
+                {
+                    "name": "identifyPhotoInfoHintView",
+                    "classType": "UIView",
+                    "children": [{
+                            "name": "lblPhotoInfoHintOne",
+                            "classType": "UILabel"
+                        },
+                        {
+                            "name": "lblPhotoInfoHintTwo",
+                            "classType": "UILabel"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "btnNextStep",
+            "classType": "UIButton"
+        }
+    ]
+}

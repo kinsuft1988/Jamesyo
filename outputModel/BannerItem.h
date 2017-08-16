@@ -1,12 +1,12 @@
-// //  BannerItem.h//  xwd////  Created by kinsuft on 2016/11/25.//  Copyright 2016 year CTiOS-org. All rights reserved.//#import <UIKit/UIKit.h>
+// //  BannerItem.h//  xwd////  Created by kinsuft on 2017/08/16.//  Copyright 2017 year CTiOS-org. All rights reserved.//#import <UIKit/UIKit.h>
 
-#import "TestDic.h" 
+#import "TestBannerItem.h" 
 #import "JustItem.h" 
  
 @interface BannerItem : NSObject
 
 @property (nonatomic, strong) NSString* target_url;
-@property (nonatomic, strong) TestDic* testDic;
+@property (nonatomic, strong) TestBannerItem* testBannerItem;
 @property (nonatomic) NSInteger seq;
 @property (nonatomic) CGFloat money;
 @property (nonatomic, strong) NSArray<JustItem*>* justArray;

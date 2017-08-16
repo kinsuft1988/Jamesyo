@@ -1,0 +1,110 @@
+{
+    "name": "identifyBankView",
+    "classType": "UIView",
+    "isScroll": "YES",
+    "children": [{
+            "name": "identifyBankPersonInfoView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "lblPersonIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "textFieldPerson",
+                    "classType": "UITextField"
+                },
+                {
+                    "name": "lblIdentifyNumberIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "textFieldIdentifyNumber",
+                    "classType": "UITextField"
+
+                },
+                {
+                    "name": "divideMiddleView",
+                    "classType": "UIView"
+
+                }
+
+            ]
+
+        },
+        {
+            "name": "identifyBankInfoView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "lblBankNumberIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "textFieldBankNumber",
+                    "classType": "UITextField"
+                },
+                {
+                    "name": "lblBankTypeIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "textFieldBankType",
+                    "classType": "UITextField"
+
+                },
+                {
+                    "name": "imageBankTypeSelect",
+                    "classType": "UIImageView"
+
+                },
+                {
+                    "name": "btnSelectedBankType",
+                    "classType": "UIButton"
+
+                },
+                {
+                    "name": "divideUpView",
+                    "classType": "UIView"
+
+                },
+                {
+                    "name": "divideDownView",
+                    "classType": "UIView"
+
+                }
+
+            ]
+
+        },
+        {
+            "name": "identifyMobileInfoView",
+            "classType": "UIView",
+            "children": [{
+                    "name": "lblMobileNumberIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "textFieldMobileNumber",
+                    "classType": "UITextField"
+                }
+
+            ]
+
+        },
+        {
+
+            "name": "btnConfirm",
+            "classType": "UIButton"
+
+        }
+    ]
+
+}

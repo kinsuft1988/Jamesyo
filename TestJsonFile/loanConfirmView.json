@@ -1,0 +1,96 @@
+{
+    "name": "loanConfirmView",
+    "classType": "UIView",
+    "children": [{
+            "name": "loanConfirmBasicInfoView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "lblLoanMoneyNumberIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "lblLoanMoneyNumber",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "lblLoanMoneyNumberUnitIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "lblLoanMoneyPeriodsIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "lblLoanMoneyPeriods",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "lblLoanMoneyPeriodsUnitIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "lblLoanMonthlyRepayIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "lblLoanMonthlyRepay",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "lblLoanMonthlyRepayUnitIndicator",
+                    "classType": "UILabel"
+
+                },
+                {
+                    "name": "divideUpView",
+                    "classType": "UIView"
+                },
+                {
+                    "name": "divideDownView",
+                    "classType": "UIView"
+
+                }
+            ]
+
+        },
+        {
+            "name": "btnLookRepayPlan",
+            "classType": "UIButton"
+        },
+        {
+            "name": "loanRecieverAcountInfoView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "lblRecieverAccountIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblRecieverAccountBankName",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblRecieverAccountBankCardNumber",
+                    "classType": "UILabel"
+                }
+
+            ]
+        },
+        {
+            "name": "btnConfirmLoan",
+            "classType": "UIButton"
+        }
+    ]
+
+}

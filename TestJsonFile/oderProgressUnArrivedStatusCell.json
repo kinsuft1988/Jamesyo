@@ -1,0 +1,29 @@
+{
+    "name": "oderProgressUnArrivedStatusCell",
+    "classType": "UITableViewCell",
+    "children": [
+
+        {
+            "name": "progressHintView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "progressTopView",
+                    "classType": "UIView"
+                },
+                {
+                    "name": "progressDownView",
+                    "classType": "UIView"
+                }
+            ]
+
+        },
+        {
+            "name": "lblProgressStatusHint",
+            "classType": "UILabel"
+        }
+
+    ]
+
+}

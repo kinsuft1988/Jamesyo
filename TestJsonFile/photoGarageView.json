@@ -1,0 +1,77 @@
+{
+    "name": "photoGarageView",
+    "classType": "UIView",
+    "children": [
+
+        {
+            "name": "cameraControlView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "imgLightStatus",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "btnAutoLight",
+                    "classType": "UIButton"
+                },
+                {
+                    "name": "btnTurnOnLight",
+                    "classType": "UIButton"
+                },
+                {
+                    "name": "btnTurnOffLight",
+                    "classType": "UIButton"
+                },
+                {
+                    "name": "btnChangeFrontAndBack",
+                    "classType": "UIButton"
+                }
+            ]
+
+        },
+        {
+            "name": "cameraContentView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "cameraBackView",
+                    "classType": "UIView"
+
+                },
+                {
+                    "name": "lblCameraHintOne",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblCameraHintTwo",
+                    "classType": "UILabel"
+                }
+
+            ]
+        },
+        {
+
+            "name": "resultControlView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "btnCancel",
+                    "classType": "UIButton"
+
+                },
+                {
+                    "name": "btnGetPhoto",
+                    "classType": "UIButton"
+                }
+
+            ]
+
+        }
+
+    ]
+
+}

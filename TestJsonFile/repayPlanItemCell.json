@@ -1,0 +1,26 @@
+{
+    "name": "repayPlanItemCell",
+    "classType": "UITableViewCell",
+    "children": [
+
+        {
+            "name": "lblPeriodsIndexIndicator",
+            "classType": "UILabel"
+
+        },
+        {
+            "name": "lblShouldPayNumber",
+            "classType": "UILabel"
+        },
+        {
+            "name": "lblRepayItemHint",
+            "classType": "UILabel"
+        },
+        {
+            "name": "dividDownView",
+            "classType": "UIView"
+        }
+
+    ]
+
+}

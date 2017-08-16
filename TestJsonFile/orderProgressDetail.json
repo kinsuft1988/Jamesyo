@@ -1,0 +1,35 @@
+{
+    "name": "orderProgressDetailView",
+    "classType": "UIView",
+    "children": [
+
+        {
+            "name": "orderInfoView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "lblOrderNumberIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblOrderNumber",
+                    "classType": "UILabel"
+                }
+            ]
+
+        },
+        {
+            "name": "tableView",
+            "classType": "UITableView"
+        },
+        {
+
+            "name": "btnConfirm",
+            "classType": "UIButton"
+
+        }
+
+    ]
+
+}

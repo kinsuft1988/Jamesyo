@@ -1,4 +1,4 @@
-// //  BannerItem.m//  xwd////  Created by kinsuft on 2016/11/25.//  Copyright 2016 year CTiOS-org. All rights reserved.//#import "BannerItem.h" 
+// //  BannerItem.m//  xwd////  Created by kinsuft on 2017/08/16.//  Copyright 2017 year CTiOS-org. All rights reserved.//#import "BannerItem.h" 
 
 @implementation BannerItem
 
@@ -11,7 +11,7 @@
 + (NSDictionary *)replacedKeyFromPropertyName
 	{
 	return @{
-	 @"testDic" : @"testBanner" 
+	 @"testBannerItem" : @"testBanner" 
 	};
 }
 

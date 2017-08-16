@@ -1,0 +1,82 @@
+{
+    "name": "personalSettingView",
+    "classType": "UIView",
+    "children": [
+
+        {
+            "name": "modifyPasswordView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "lblModifyPasswordIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "imageGoModifyPasswordIndicator",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "btnGoModifyPassword",
+                    "classType": "UIButton"
+                }
+            ]
+
+        },
+        {
+            "name": "repayAndAboutUsView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "lblAutoRepayIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "switchAutoRepay",
+                    "classType": "UISwitch"
+                },
+                {
+                    "name": "imageGoAboutUsIndicator",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "lblAboutUsIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblVersionStatus",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "btnGoAbountUs",
+                    "classType": "UIButton"
+                }
+            ]
+
+        },
+        {
+
+            "name": "logOutIndicatorView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "lblLogOutIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "imageGoLogOutIndicator",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "btnGoLogOutDetail",
+                    "classType": "UIButton"
+                }
+            ]
+
+        }
+
+    ]
+
+}

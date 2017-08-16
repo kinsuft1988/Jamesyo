@@ -1,0 +1,48 @@
+{
+    "name": "orderProgressCompleteCell",
+    "classType": "UITableViewCell",
+    "children": [
+
+        {
+            "name": "progressCompleteHintView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "progressTopView",
+                    "classType": "UIView"
+                },
+                {
+                    "name": "progressDownView",
+                    "classType": "UIView"
+                }
+            ]
+
+        },
+        {
+            "name": "progressCompleteContentView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "imgBackground",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "lblStatusIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblDate",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblStatusContent",
+                    "classType": "UILabel"
+                }
+            ]
+        }
+
+    ]
+
+}

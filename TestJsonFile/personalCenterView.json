@@ -1,0 +1,102 @@
+{
+    "name": "personalCenterView",
+    "classType": "UIView",
+    "children": [
+
+        {
+            "name": "personalInfoView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "imageHeadPhoto",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "lblMobileNumberAndName",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblCerStatusInfo",
+                    "classType": "UILabel"
+                }
+            ]
+
+        },
+        {
+            "name": "personExtraInfoIndicatorView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "imageCerIndicator",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "lblMyCertificationIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "lblMyCertificationStatus",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "imageGoMyCertifiDetailIndicator",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "btnGoCertificationDetail",
+                    "classType": "UIButton"
+                },
+                {
+                    "name": "imageBankIndicator",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "lblBankInfoIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "imageGoBanInfoDetailIndicator",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "btnGoBankDetail",
+                    "classType": "UIButton"
+                },
+                {
+                    "name": "divideMiddleView",
+                    "classType": "UIView"
+                }
+            ]
+
+        },
+        {
+
+            "name": "personalSettingIndicatorView",
+            "classType": "UIView",
+            "children": [
+
+                {
+                    "name": "imageSettingIndicator",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "lblSettingIndicator",
+                    "classType": "UILabel"
+                },
+                {
+                    "name": "imageGoMySettingDetailIndicator",
+                    "classType": "UIImageView"
+                },
+                {
+                    "name": "btnGoMySettingDetail",
+                    "classType": "UIButton"
+                }
+            ]
+
+        }
+
+    ]
+
+}
